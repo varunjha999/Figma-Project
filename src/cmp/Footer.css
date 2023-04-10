@@ -1,0 +1,43 @@
+.child1 {
+    margin-left: 20px;
+}
+
+.child2 {
+    margin-left: 30px;
+}
+
+.child3 {
+    margin-left: 400px;
+    margin-top: -300px;
+    display : inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+
+}
+
+.call {
+    margin-top: 200px;
+}
+
+.mail {
+    margin-left: 400px;
+    margin-top: -130px;
+}
+
+.social {
+    margin-left: 1200px;
+    margin-top: -130px;
+    
+
+}
+
+span {
+    display: inline-block;
+}
+
+.item li {
+    text-decoration: underline;
+    margin:15px 0;
+}

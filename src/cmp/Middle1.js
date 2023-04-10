@@ -1,5 +1,6 @@
 import React from "react";
 import girl from "../assets/girl.jpg";
+import "../cmp/Middle1.css";
 
 
 const Middle1 = () => {
@@ -8,16 +9,16 @@ const Middle1 = () => {
       <div className="mupper">
         <div className="middle">
           <div className="left" >
-            <h1>Practical Learning Journey To Earn With Fun - LearnInbox</h1>
+            <h1>Practical Learning Journey To <br></br>Earn With Fun - LearnInbox</h1>
             <button className="mbtn">Start Course Now</button>
           </div>
           <div className="right">
-            <img src={girl} height={400} width={600} /> 
+            <img src={girl} alt="girl" height={400} width={600} /> 
           </div>
         </div>
         <div className="bottom">
           <div className="btop">
-            Search Among 58340 Courses And Find Your Favourite Course
+            Search Among <span style={{color: "purple" }}>58340</span> Courses And <br></br>Find Your Favourite Course
           </div>
           <div className="bbottom">
             <button>Categories</button>
@@ -27,21 +28,21 @@ const Middle1 = () => {
         </div>
         <div className="div_list">
           <div className="list1">
-          <ul>
-            <li>PhD Mentors</li>
-            <li>R&D Mentors</li>
-            <li>Skill Development Mentors</li>
-            <li>Language Mentors</li>
-            <li>Entreprenurship Mentors</li>
-          </ul>
+          
+            <p>PhD Mentors</p>
+            <p>R&D Mentors</p>
+            <p>Skill Development Mentors</p>
+            <p>Language Mentors</p>
+            <p>Entreprenurship Mentors</p>
+          
           </div>
           <div className="list2">
           <ul>
-            <li>Coading Learning Mentors</li>
-            <li>Project Learning Mentors</li>
-            <li>Career Development Mentors</li>
-            <li>Subject Mentors</li>
-            <li>Courses Mentors</li>
+            <p>Coading Learning Mentors</p>
+            <p>Project Learning Mentors</p>
+            <p>Career Development Mentors</p>
+            <p>Subject Mentors</p>
+            <p>Courses Mentors</p>
 
 
            </ul>

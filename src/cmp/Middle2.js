@@ -9,18 +9,20 @@ import img5 from '../assets/MWLB.png';
 import img6 from '../assets/baby.jpg';
 import img7 from '../assets/group.png';
 import img8 from '../assets/logo.jpg';
+import '../cmp/Middle2.css'
 
 const Middle2 = () => {
   return <div className="Middle2">
-  
+  <center>
   <div className="center">
-  <img src={earth} height={40} width={60} />
+  <img src={earth} alt="logo" />
   <h1>Make The World Your Comfort</h1>
   <h1>Zone</h1>
   <p>Speak Naturally With Professional Online Mentors </p>
   <p>From 185 Counteries</p>
   </div>
-  
+  </center>
+  <div className="container">
   <div className="box1">
     <h1>Expert Tutors</h1>
     <p>Find Native Speakers and Certified Mentors</p>
@@ -40,13 +42,13 @@ const Middle2 = () => {
     <h1>Affordable Prices</h1>
     <p>Choose An Experienced Mentor Your Budget</p>
   </div>
-  
-  
+  </div>
+  <center>
   <div className="center2">
   <h1>Focus On The Skills you Need</h1>
   <p>Prepare To Achieve Your Goals With Private Mentors</p>
   </div>
-  
+  </center>
   <div className="left1">
   <div>
     <h1>Immense Yourself In A New Culture</h1>
@@ -127,14 +129,15 @@ const Middle2 = () => {
   <p>Grow Your Business</p>
   
  </div>
- 
+ <div className="boy1">
  <img src = {img6} alt = "logo" />
+ </div>
 </div>
 
 <div className="group">
 <img src = {img7} alt = "logo" />
-
-<img src = {img8} alt = "logo" />
+<center>
+<img src = {img8} alt = "logo" /> </center>
 <center>
 <h1>Hundreds Of Thousands</h1>
 <h1>Students Join Us Monthly</h1>
@@ -142,7 +145,7 @@ const Middle2 = () => {
 <p><b>...And Achieve Their Learning Goals.With Our Experts Tutors,Your Goals</b></p>
 <p><b>Are Closer Than Ever!</b></p>
 
-<button>Start Learning</button>
+<button className="but1">Start Learning</button>
 </center>
 
 </div>

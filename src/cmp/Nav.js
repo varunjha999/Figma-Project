@@ -27,7 +27,7 @@ const Nav = () => {
       <div className="search">Search</div>
       <div className="profile">
         <div className="image">
-          <img src={old} width={50} height={50} />
+          <img src={old} alt="old" width={50} height={50} />
         </div>
         <div className="detail">
           <div className="name">Behzad Pashaei</div>
@@ -35,7 +35,7 @@ const Nav = () => {
         </div>
       </div>
       <div className="notibell">
-        <img src={bell} height={30} width={30} />
+        <img src={bell}  alt="bell" height={30} width={30} />
       </div>
     </div>
   );
