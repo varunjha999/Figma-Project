@@ -2,6 +2,7 @@ import React from "react";
 import bell from "../assets/bell.jpg";
 import old from "../assets/old.jpg";
 import logoUrl from '../assets/logo.jpg';
+import '../cmp/Home.css';
 // import Tech from './cmp/Tech'
 // import AboutUs from './cmp/AboutUs'
 // import ContactUs from './cmp/ContactUs'
@@ -24,23 +25,19 @@ const Home = () => {
        
       </div>
       <div className="menu">
-        <div>
+        <div className="gap">
           <label htmlFor="">
             Categories
             <select name="" id="">
-             
-
             </select>
           </label>
         </div>
-        <div>Teach</div>
-        <div>Contact Us</div>
-        <div>About Us</div>
+        <div className="gap">Teach</div>
+        <div className="gap">Contact Us</div>
+        <div className="gap">About Us</div>
       </div>
       <div className="search">
         <input type="text" placeholder="Search" />
-        
-      
       </div>
       <div className="profile">
         <div className="image">

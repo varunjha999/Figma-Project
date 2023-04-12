@@ -1,0 +1,11 @@
+.menu {
+   display: flex;
+    flex-direction: row;
+    
+}
+
+.gap {
+    margin-left: 100px;
+    display: flex;
+    cursor: pointer;
+}
