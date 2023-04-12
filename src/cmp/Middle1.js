@@ -21,9 +21,11 @@ const Middle1 = () => {
             Search Among <span style={{color: "purple" }}>58340</span> Courses And <br></br>Find Your Favourite Course
           </div>
           <div className="bbottom">
-            <button>Categories</button>
-            <div>Search</div>
-            <div>Or View The Following Courses...</div>
+            <button className="Bott">Categories</button>
+            <div className="search1">
+        <input type="text" placeholder="Search" />
+      </div>
+            <div className="view">Or View The Following Courses...</div>
           </div>
         </div>
         <div className="div_list">

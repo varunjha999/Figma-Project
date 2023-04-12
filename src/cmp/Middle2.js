@@ -9,13 +9,22 @@ import img5 from '../assets/MWLB.png';
 import img6 from '../assets/baby.jpg';
 import img7 from '../assets/group.png';
 import img8 from '../assets/logo.jpg';
+import smallcircle from '../assets/smallc.png';
+import tick from '../assets/tick.png';
+import expert from '../assets/expert.png';
+import graduate from '../assets/graduation.png';
+import location from '../assets/map.png';
 import '../cmp/Middle2.css'
 
 const Middle2 = () => {
   return <div className="Middle2">
   <center>
   <div className="center">
-  <img src={earth} alt="logo" />
+  <div className="logoan">
+  <img src={smallcircle} alt="logo" />
+  <img src={earth} alt="logo" className="Inner-image"/>
+  </div>
+  
   <h1>Make The World Your Comfort</h1>
   <h1>Zone</h1>
   <p>Speak Naturally With Professional Online Mentors </p>
@@ -24,27 +33,33 @@ const Middle2 = () => {
   </center>
   <div className="container">
   <div className="box1">
+  <img src={expert} alt="logo" />
     <h1>Expert Tutors</h1>
-    <p>Find Native Speakers and Certified Mentors</p>
+    <p>Find Native Speakers and <br></br>Certified Mentors</p>
   </div>
 
   <div className="box2">
+  <img src={tick} alt="logo" />
     <h1>Verified Profiles</h1>
-    <p>We carefully Check And Confirm Each Mentor's Profile</p>
+    <p>We carefully Check And Confirm <br></br>Each Mentor's Profile</p>
   </div>
 
   <div className="box3">
+  <img src={tick} alt="logo" />
     <h1>Learn Anything</h1>
-    <p>Take Online Lessons At The Prefect Time For Your busy schedule</p>
+    <p>Take Online Lessons At The Prefect<br></br> Time For Your busy schedule</p>
   </div>
 
   <div className="box4">
+  <img src={tick} alt="logo" />
     <h1>Affordable Prices</h1>
-    <p>Choose An Experienced Mentor Your Budget</p>
+    <p>Choose An Experienced Mentor
+    <br></br> Your Budget</p>
   </div>
   </div>
   <center>
   <div className="center2">
+  <img src = {graduate} alt = "logo" />
   <h1>Focus On The Skills you Need</h1>
   <p>Prepare To Achieve Your Goals With Private Mentors</p>
   </div>
@@ -73,8 +88,11 @@ const Middle2 = () => {
   </div>
   </div>
 
+<br></br>
+<br></br>
   <div className="center3">
   <center>
+  <img src = {location}  alt = "logo" />
    <img src = {logoUrl} alt = "logo" />
   <p>Learn Online With The World's Best Mentors</p>
   </center>
@@ -108,6 +126,9 @@ const Middle2 = () => {
     </li>
 
   </ol>
+
+  <br></br>
+  <br></br>
 
   <div className="center4">
   <center>

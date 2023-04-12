@@ -28,7 +28,59 @@
 
 }
 
+.list1  {
+    font-size: 30px;
+    margin: 80px;
+}
+
+
+.list2 {
+    font-size: 30px;
+    margin-top: -440px;
+}
 
 .bbottom {
-    
+    margin-left: 40px;
+    /* background-color: black;
+    color: white; */
 }
+
+.Bott {
+    width: 200px;
+    height: 50px;background-color: black;
+    color: white;
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.search1{
+    margin-left: -600px;
+    margin-top: 10px;
+   
+}
+
+.view {
+    margin-right: 150px;
+    margin-top: 10px;
+    font-size: larger;
+}
+
+
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
